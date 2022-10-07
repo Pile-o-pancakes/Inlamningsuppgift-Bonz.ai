@@ -31,9 +31,6 @@ a {
 }
 .header {
     height: 400px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     grid-column: 1 / span 5;
     grid-row: 1;
     display: flex;
@@ -98,7 +95,7 @@ a {
 }
 .main-area {
     grid-column: 2 / span 5;
-    margin: 40px 80px 0 80px;
+    margin: 40px 60px 0 60px;
 }
 .main-area h2 {
     text-align: center;
@@ -178,16 +175,14 @@ a {
     padding: 5px 5px;
 }
 footer {
-    margin: 40px 80px 0 80px;
     grid-column: 1 / span 5;
     display: flex;
     flex-direction: column;
 }
-footer p {
-    display: flex;
-}
 .footer__links {
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 .footer__links a {
     background-color: #CDEDF6;
